@@ -24,5 +24,17 @@ sectionTrigger.on('click', function(event){
   sectionTrigger.not(this).removeClass('is-active');
 });
 
+$('h1 a').on('click', function(e) {
+    e.preventDefault();
+
+    var hash = this.hash;
+
+    if ($(hash).length) {
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 400, function() {
+        });
+    }
+});
 
 }); /* End Document Ready */
