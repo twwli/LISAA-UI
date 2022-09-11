@@ -304,19 +304,6 @@ section.accordion {
   left: -3px;
 }
 
-footer a, footer .btn-toggle,
-.trigger-left h2,
-.trigger-right span {
-  transition: opacity .2s ease-in-out .1s;
-}
-
-footer.not-acc a, footer.not-acc .btn-toggle,
-.header.not-acc h1,
-.not-acc .trigger-left h2,
-.not-acc .trigger-right span {
-  opacity: .25;
-}
-
 /* Inactive Sessions */
 
 section.accordion.inactive {
@@ -773,12 +760,14 @@ to {
      display: none;
    }
    
-   .dark-theme .btn, .btn {
+   .dark-theme .btn, .btn,
+   .dark-theme h1 a, h1 a {
     color: #001713;
     background-color: #98A7A4;
    }
    
-   .light-theme .btn {
+   .light-theme .btn,
+   .light-theme h1 a {
     color: #022921;
     background-color: #F0FD51;
    }
