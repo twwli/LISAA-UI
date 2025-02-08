@@ -1,5 +1,5 @@
 # LISAA-UI
-One-pager for LISAA Strasbourg G4 Workshop — September 2022
+One-pager for LISAA Strasbourg G4 Workshop — February 2025
 
 
 **UX/UI Ressources & Tools**
