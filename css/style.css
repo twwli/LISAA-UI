@@ -353,12 +353,20 @@ section.accordion.inactive .acc-dot {
   background-color: #FBA503;
 }
 
-.acc-dot--menugreen {
+.acc-dot--menuyellow {
   border-color: #C0FF00;
 }
 
-.section-trigger.is-active .acc-dot--menugreen {
+.section-trigger.is-active .acc-dot--menuyellow {
   background-color: #C0FF00;
+}
+
+.acc-dot--menugreen {
+  border-color: #00ff00;
+}
+
+.section-trigger.is-active .acc-dot--menugreen {
+  background-color: #00ff00;
 }
 
 .acc-dot--menupurple {
